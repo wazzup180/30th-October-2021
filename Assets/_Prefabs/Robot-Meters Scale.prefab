@@ -497,7 +497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6809199770778660275
 Transform:
   m_ObjectHideFlags: 0
@@ -557,6 +557,7 @@ MonoBehaviour:
   Positions:
   - {fileID: 6299063045283484401}
   Factory: {fileID: 0}
+  ClumpMesh: {fileID: 0}
   _reachedTarget: 0
 --- !u!114 &5558697425439888226
 MonoBehaviour:

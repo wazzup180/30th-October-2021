@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3284848869379023554
+--- !u!1 &3731342618852823340
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3284848869379023555}
-  - component: {fileID: 3284848869379023552}
+  - component: {fileID: 3731342618852823341}
+  - component: {fileID: 3731342618852823342}
   m_Layer: 7
   m_Name: Point Light (1)
   m_TagString: Untagged
@@ -17,32 +17,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3284848869379023555
+--- !u!4 &3731342618852823341
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869379023554}
+  m_GameObject: {fileID: 3731342618852823340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.15, y: 0.15, z: 0.007}
+  m_LocalPosition: {x: 2.22, y: 0.087377556, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3284848869533848297}
+  m_Father: {fileID: 3731342619662842020}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &3284848869379023552
+--- !u!108 &3731342618852823342
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869379023554}
+  m_GameObject: {fileID: 3731342618852823340}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.85882354, g: 0.31372547, b: 0.66804916, a: 1}
+  m_Color: {r: 0.8584906, g: 0.7914109, b: 0.31181023, a: 1}
   m_Intensity: 3
   m_Range: 55.359512
   m_SpotAngle: 30
@@ -93,7 +93,7 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &3284848869533848296
+--- !u!1 &3731342619662842203
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,50 +101,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3284848869533848297}
-  - component: {fileID: 3284848869533848301}
-  - component: {fileID: 3284848869533848300}
-  - component: {fileID: 2061858592179225731}
-  - component: {fileID: 3579775899595333088}
-  - component: {fileID: -348830911253051828}
-  - component: {fileID: 4629158155408709861}
+  - component: {fileID: 3731342619662842020}
+  - component: {fileID: 3731342619662842016}
+  - component: {fileID: 3731342619662842023}
+  - component: {fileID: 1828078601685462957}
+  - component: {fileID: 489251420807691361}
+  - component: {fileID: 7465329414848743075}
+  - component: {fileID: 3731342619662842200}
   m_Layer: 7
-  m_Name: ClumpF
+  m_Name: Clump3
   m_TagString: Factory
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3284848869533848297
+--- !u!4 &3731342619662842020
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
-  m_LocalRotation: {x: -0, y: -0.5060704, z: -0, w: 0.86249226}
-  m_LocalPosition: {x: 18.6, y: 1.8028, z: 23.9}
-  m_LocalScale: {x: 3.3303852, y: 5.462531, z: 10.839282}
+  m_GameObject: {fileID: 3731342619662842203}
+  m_LocalRotation: {x: -0, y: -0.6892927, z: -0, w: 0.72448295}
+  m_LocalPosition: {x: 46.7, y: 0.7891731, z: 16.5}
+  m_LocalScale: {x: 5.2321167, y: 7.564594, z: 13.480513}
   m_Children:
-  - {fileID: 3284848869379023555}
+  - {fileID: 3731342618852823341}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -60.805, z: 0}
---- !u!33 &3284848869533848301
+  m_LocalEulerAnglesHint: {x: 0, y: -87.148, z: 0}
+--- !u!33 &3731342619662842016
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
+  m_GameObject: {fileID: 3731342619662842203}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3284848869533848300
+--- !u!23 &3731342619662842023
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
+  m_GameObject: {fileID: 3731342619662842203}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -179,63 +179,64 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2061858592179225731
+--- !u!65 &1828078601685462957
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
+  m_GameObject: {fileID: 3731342619662842203}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.0000002, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3579775899595333088
+--- !u!114 &489251420807691361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
+  m_GameObject: {fileID: 3731342619662842203}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c80a73373dc80a24fb4c16520dba8a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-348830911253051828
+--- !u!114 &7465329414848743075
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
+  m_GameObject: {fileID: 3731342619662842203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18abf2cefd334284f8ef799656730a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  l1: {fileID: 3731342618852823342}
+--- !u!114 &3731342619662842200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731342619662842203}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fdf2c555b1797847915e226ede08cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Prefabs:
-  - {fileID: 8473083503872327078, guid: d1122830d137fbf49876525e301a2c87, type: 3}
-  - {fileID: 734075379500657663, guid: 32dbf7a0baec11d42a87cdac3aa78d4d, type: 3}
-  - {fileID: 7327023595249477106, guid: 1f5596218933ce64481dd5fbb74c42a5, type: 3}
-  - {fileID: 6553121634221710600, guid: f190841c53c82524d8cf22a0449db11e, type: 3}
-  - {fileID: 1507408774901756802, guid: a0248f66483cfae4dbdfba824936fb3f, type: 3}
-  - {fileID: 851614931114860406, guid: 4bab06a18234fdf478dd43c0770543b0, type: 3}
-  TargetTag: Player
-  MakeLimit: 5
-  MakeRate: 2
---- !u!114 &4629158155408709861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3284848869533848296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18abf2cefd334284f8ef799656730a21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  l1: {fileID: 3284848869379023552}
+  - {fileID: 8473083503872327078, guid: c7d59351230e9ca4d920fffc68100fae, type: 3}
+  - {fileID: 6553121634221710600, guid: e2c994b29b0a121448bcdb8e71344eb9, type: 3}
+  - {fileID: 7327023595249477106, guid: ca49288f44bf9274588e0d444ede672b, type: 3}
+  - {fileID: 734075379500657663, guid: d8cc15933830bcd4f90bc69abce85aad, type: 3}
+  - {fileID: 6553121634221710600, guid: 18b504f47cfcaf8449344cb84366a8ad, type: 3}
+  - {fileID: 3333732706549582369, guid: cbcfc6720e3135845a4a900cae4fc669, type: 3}
+  - {fileID: 3333732706549582369, guid: 38c3536f720b4f1418b711e0ff6d8454, type: 3}
+  TargetTag: TargetTag
+  MakeLimit: 7
+  MakeRate: 3

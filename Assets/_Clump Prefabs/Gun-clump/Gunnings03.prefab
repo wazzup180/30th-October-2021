@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 67cc137ed74cfdb45b4a559134e64f77, type: 2}
+  - {fileID: 2100000, guid: d885f38420cd7314aaa1b6ef04cee0b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 4235152555004360787}
   - component: {fileID: 3342349464633079622}
   m_Layer: 0
-  m_Name: Gunnings02
+  m_Name: Gunnings03
   m_TagString: Agent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,14 +318,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62910f4a26dbea4b80ac80e6b1abd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
+  Target: {fileID: 4042655236187060644, guid: 116171defe3fcd94cb3307f5e4e50ef3, type: 3}
   Positions:
   - {fileID: 4314281845428789025}
   - {fileID: 7334928193379277954}
   - {fileID: 8023338183364874717}
   - {fileID: 4357514561572512374}
   - {fileID: 9123737395763169253}
-  Factory: {fileID: 0}
+  Factory: {fileID: 4847843599851577219, guid: 9b080a887fc10a841ad987a4039867da, type: 3}
+  ClumpMesh: {fileID: 0}
   _reachedTarget: 0
 --- !u!1 &9123737395763169253
 GameObject:
