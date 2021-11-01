@@ -2215,7 +2215,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 338050055}
-  - component: {fileID: 338050056}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -2238,18 +2237,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &338050056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338050054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &371990616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2372,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399650040}
-  - component: {fileID: 399650041}
   m_Layer: 0
   m_Name: gun
   m_TagString: Untagged
@@ -2408,18 +2394,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &399650041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 399650039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &455906206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3386,7 +3360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1, y: -213}
+  m_AnchoredPosition: {x: -1, y: -230}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524403979
@@ -4169,7 +4143,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578206577}
-  - component: {fileID: 578206578}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -4192,18 +4165,6 @@ Transform:
   m_Father: {fileID: 457566193}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &578206578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578206576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &618663677
 GameObject:
   m_ObjectHideFlags: 0
@@ -5166,7 +5127,6 @@ GameObject:
   m_Component:
   - component: {fileID: 725016676}
   - component: {fileID: 725016678}
-  - component: {fileID: 725016677}
   m_Layer: 0
   m_Name: light
   m_TagString: Untagged
@@ -5190,18 +5150,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725016677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725016675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &725016678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5584,7 +5532,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 793509590}
-  - component: {fileID: 793509591}
   m_Layer: 0
   m_Name: antenna
   m_TagString: Untagged
@@ -5607,18 +5554,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &793509591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793509589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &806256154
 GameObject:
   m_ObjectHideFlags: 0
@@ -6363,8 +6298,8 @@ GameObject:
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &911075017
 BoxCollider:
@@ -9870,7 +9805,6 @@ GameObject:
   - component: {fileID: 1485669077}
   - component: {fileID: 1485669080}
   - component: {fileID: 1485669079}
-  - component: {fileID: 1485669078}
   - component: {fileID: 1485669081}
   m_Layer: 0
   m_Name: twister (1)
@@ -9893,18 +9827,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1485669078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485669076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1485669079
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10719,8 +10641,8 @@ GameObject:
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1626830336
 BoxCollider:
@@ -11002,8 +10924,8 @@ GameObject:
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1678736794
 BoxCollider:
@@ -11197,7 +11119,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1690360710}
-  - component: {fileID: 1690360711}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -11220,18 +11141,6 @@ Transform:
   m_Father: {fileID: 1718250872}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1690360711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690360709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 155ac8e38b0fee541a987bbd212284ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1695618185
 GameObject:
   m_ObjectHideFlags: 0
@@ -13450,7 +13359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13, y: -205}
+  m_AnchoredPosition: {x: -13, y: -184}
   m_SizeDelta: {x: 297.9683, y: 51.6}
   m_Pivot: {x: 0.4782468, y: 0.17699054}
 --- !u!114 &2054998635
@@ -13475,7 +13384,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -13487,6 +13396,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: ' Move your joystick and press Y to select, A and B to change colours!
+
+    Hover
+    over still Robots!
 
 '
 --- !u!222 &2054998636
